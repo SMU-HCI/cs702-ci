@@ -58,7 +58,8 @@ Install Dependencies
 Once inside the container, open a new terminal in VS Code.
 Run the following command to install project dependencies:
 ```bash
-pip install -r requirements.txt
+pip install uv
+uv pip install -r requirements.txt
 conda install -y -c conda-forge ipopt
 ```
 
