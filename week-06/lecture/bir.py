@@ -155,8 +155,22 @@ def main():
         print(f"  Estimated Q-values: {qs}")
         print(f"  Reward: {reward}\n")
         print(f"  Visits: ")
+
         for s, a in product(states, actions):
             print(f"    Q({s}, {a}): {len(history[(s, a)]['rewards'])}")
+
+        if t % 10 == 0:
+            print("=========================================")
+            print("\nQ-value estimates:")
+            q_estimates = {}
+            for s, a in product(states, actions):
+                if len(history[(s, a)]['rewards']) > 0:
+                    rng_key, subkey = jax.random.split(rng_key)
+                    q_est = mcmc.get_samples()["q_values"][:, s, a]
+                    mean = np.mean(q_est)
+                    std = np.std(q_est)
+                    q_estimates[(s, a)] = (mean, std)
+                    print(f"  Q({s}, {a}) = {mean:.2f} ± {std:.2f}")
 
     # Print final Q-value estimates
     print("\nFinal Q-value estimates:")
