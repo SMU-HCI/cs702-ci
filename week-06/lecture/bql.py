@@ -12,11 +12,7 @@ states = [0, 1]
 actions = [0, 1]
 
 
-def mdp(state: int, action: int) -> (int, float):
-    """
-    Given a state and action, return (next_state, reward).
-    The reward is sampled from a Normal distribution.
-    """
+def mdp(state: int, action: int) -> tuple[int, float]:
     assert state in [0, 1], "Invalid state"
     assert action in [0, 1], "Invalid action"
 
