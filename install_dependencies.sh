@@ -3,17 +3,15 @@
 # Exit on error
 set -e
 
-echo "Starting dependency installation..."
-
-# Install uv package installer
 echo "Installing uv..."
 pip install uv==0.5.16 || { echo "Failed to install uv"; exit 1; }
 
-# Install Python dependencies from requirements.txt
 echo "Installing Python packages from requirements.txt..."
 pip install -r requirements.txt || { echo "Failed to install Python packages"; exit 1; }
 
-# Install IPOPT solver
 echo "Installing IPOPT solver..."
 conda install -y -c conda-forge ipopt || { echo "Failed to install IPOPT"; exit 1; }
+
+echo "Installing Spot..."
+conda install -c conda-forge spot
 echo "All dependencies installed successfully!"
