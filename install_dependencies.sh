@@ -13,5 +13,5 @@ echo "Installing IPOPT solver..."
 conda install -y -c conda-forge ipopt || { echo "Failed to install IPOPT"; exit 1; }
 
 echo "Installing Spot..."
-conda install -c conda-forge spot
+conda install -y -c conda-forge spot
 echo "All dependencies installed successfully!"
