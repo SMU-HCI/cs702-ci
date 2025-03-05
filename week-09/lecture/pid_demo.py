@@ -43,25 +43,15 @@ def main(screen, clock):
         disturbance = norm.rvs(scale=0.1)
         u = u + disturbance
 
-
         obj_x += u
 
         # Render the goal
         pygame.draw.line(
-            screen,
-            WHITE,
-            (goal_x, screen_y / 2 - 10),
-            (goal_x, screen_y / 2 + 10),
-            3
+            screen, WHITE, (goal_x, screen_y / 2 - 10), (goal_x, screen_y / 2 + 10), 3
         )
 
         # Render the object
-        pygame.draw.circle(
-            screen,
-            YELLOW,
-            (obj_x, screen_y / 2),
-            10
-        )
+        pygame.draw.circle(screen, YELLOW, (obj_x, screen_y / 2), 10)
 
         t_sum += clock.get_time()
         pygame.display.flip()

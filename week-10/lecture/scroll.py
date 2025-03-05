@@ -49,28 +49,28 @@ while running:
         rect_height = 100
         padding = 10
         # Plot a rectangle with stroke and no fill
-        pygame.draw.rect(screen,
-                         WHITE,
-                         (padding, padding + position, width - 2 * padding, rect_height))
+        pygame.draw.rect(
+            screen,
+            WHITE,
+            (padding, padding + position, width - 2 * padding, rect_height),
+        )
 
     # Draw a circle to indicate the input
     input_x_origin = width - 50
     input_y_origin = 500
     scale = 10
     input_position = input_y_origin + u[current_time]
-    pygame.draw.line(screen,
-                     RED,
-                     (input_x_origin, input_y_origin),
-                     (input_x_origin, int(u[current_time] * scale + input_y_origin)),
-                     1)
-    pygame.draw.circle(screen,
-                       DARK_RED,
-                       (input_x_origin, input_y_origin),
-                       7)
-    pygame.draw.circle(screen,
-                       RED,
-                       (input_x_origin, int(u[current_time] * scale + input_y_origin)),
-                       10)
+    pygame.draw.line(
+        screen,
+        RED,
+        (input_x_origin, input_y_origin),
+        (input_x_origin, int(u[current_time] * scale + input_y_origin)),
+        1,
+    )
+    pygame.draw.circle(screen, DARK_RED, (input_x_origin, input_y_origin), 7)
+    pygame.draw.circle(
+        screen, RED, (input_x_origin, int(u[current_time] * scale + input_y_origin)), 10
+    )
 
     pygame.display.flip()
     clock.tick(60)
