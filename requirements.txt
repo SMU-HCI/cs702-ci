@@ -1,13 +1,8 @@
 arviz==0.20.0
-eventlet==0.35.1
-flask==3.0.2
-flask-socketio==5.3.6
 jupyter==1.1.1
 matplotlib==3.10.0
 numpy==2.2.1
 numpyro==0.16.1
 pandas==2.2.3
-pygame==2.6.1
 pyomo==6.8.2
 scipy==1.15.0
-SNAKES==0.9.33
