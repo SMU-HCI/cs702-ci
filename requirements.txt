@@ -8,3 +8,4 @@ pandas==2.2.3
 pyomo==6.8.2
 rtamt==0.3.5
 scipy==1.15.0
+websockets==15.0.1
