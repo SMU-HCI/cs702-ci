@@ -4,6 +4,7 @@ matplotlib==3.10.0
 numpy==2.2.1
 numpyro==0.16.1
 optax==0.2.4
+ortools==9.12.4544
 pandas==2.2.3
 pyomo==6.8.2
 rtamt==0.3.5
