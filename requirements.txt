@@ -9,5 +9,6 @@ ortools==9.12.4544
 pandas==2.2.3
 pyomo==6.8.2
 rtamt==0.3.5
+seaborn==0.13.2
 scipy==1.15.0
 websockets==15.0.1
