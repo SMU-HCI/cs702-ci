@@ -1,0 +1,27 @@
+[project]
+name = "cs702"
+version = "0.1.0"
+description = "CS702 project"
+requires-python = ">=3.12"
+dependencies = [
+    "arviz==0.20.0",
+    "jupyter==1.1.1", 
+    "matplotlib==3.10.0",
+    "networkx==3.4.2", 
+    "numpy==2.2.1",
+    "numpyro==0.16.1",
+    "optax==0.2.4",
+    "pandas==2.2.3",
+    "pymodelchecking==1.3.4",
+    "pyomo==6.8.2",
+    "scipy==1.15.0",
+    "seaborn==0.13.2",
+]
+
+# Explicitly declare the packages
+[tool.setuptools]
+packages = ["gp", "bf", "rl", "dsp", "image", "bandit", "spatial", "opt_ctrl"]
+
+# Correct uv configuration
+[tool.uv.python]
+version = "3.12"

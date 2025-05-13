@@ -27,6 +27,7 @@ RUN apt-get update > /dev/null && \
         git \
         tini \
         bash-completion \
+        curl \
         > /dev/null && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/*
@@ -40,6 +41,10 @@ RUN wget --no-hsts --quiet https://github.com/conda-forge/miniforge/releases/dow
     conda clean --force-pkgs-dirs --all --yes && \
     echo ". ${CONDA_DIR}/etc/profile.d/conda.sh && conda activate base" >> /etc/skel/.bashrc && \
     echo ". ${CONDA_DIR}/etc/profile.d/conda.sh && conda activate base" >> ~/.bashrc
+
+# Install uv - the fast Python package installer
+RUN curl -LsSf https://astral.sh/uv/install.sh | bash && \
+    ln -s /root/.cargo/bin/uv /usr/local/bin/uv
 
 # Set up better bash configuration for the user
 COPY <<-"EOF" /home/${USERNAME}/.bashrc
@@ -95,11 +100,16 @@ conda activate base
 EOF
 
 RUN chown ${USERNAME}:${USERNAME} /home/${USERNAME}/.bashrc && \
-    chown -R ${USERNAME}:${USERNAME} ${CONDA_DIR}
+    chown -R ${USERNAME}:${USERNAME} ${CONDA_DIR} && \
+    # Make uv available to the user
+    curl -LsSf https://astral.sh/uv/install.sh | sudo -u ${USERNAME} bash
 
 # Set the default user
 USER ${USERNAME}
 WORKDIR /home/${USERNAME}
+
+# Install dependencies
+RUN conda install -y -c conda-forge ipopt spot
 
 ENTRYPOINT ["tini", "--"]
 CMD [ "/bin/bash" ]

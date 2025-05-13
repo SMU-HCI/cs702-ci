@@ -1,4 +1,4 @@
-# cs702-2024
+# CS702 Computational Interaction
 
 This repository contains code for the lectures and assignments for the corresponding course, CS702 Computational Interaction.
 
@@ -58,18 +58,5 @@ Install Dependencies
 Once inside the container, open a new terminal in VS Code.
 Run the following command to install project dependencies:
 ```bash
-pip install uv
-uv pip install -r requirements.txt
-conda install -y -c conda-forge ipopt
+uv pip install -e .
 ```
-
-Or you can simply run a shell script:
-```bash
-bash install_dependencies.sh
-```
-
-Other than the Python libraries that are listed in `requirements.txt`, the above command install:
-
-* `ipopt`
-
-
