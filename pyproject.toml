@@ -14,6 +14,8 @@ dependencies = [
     "pandas==2.2.3",
     "pymodelchecking==1.3.4",
     "pyomo==6.8.2",
+    "rerun-sdk==0.23.3",
+    "rerun-notebook==0.23.3",
     "scipy==1.15.0",
     "seaborn==0.13.2",
 ]
