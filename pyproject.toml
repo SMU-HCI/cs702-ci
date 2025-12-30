@@ -23,3 +23,19 @@ dependencies = [
 [build-system]
 requires = ["setuptools>=45", "wheel"]
 build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = [
+    "02_intelligent_user_interface*",
+    "04_bayesian_inference*",
+    "05_validating_user_model*",
+    "07_discrete_optimization*",
+    "08_bandit*",
+    "09_reinforcement_learning*",
+    "10_conv_verification*",
+    "11_dynamical_system*",
+    "12_state_space_representation*",
+    "13_numerical_optimization*",
+    "14_optimization_control*",
+    "15_bayesian_filter*",
+]
