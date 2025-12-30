@@ -57,6 +57,7 @@ Install Dependencies
 --------------------
 Once inside the container, open a new terminal in VS Code.
 Run the following command to install project dependencies:
+
 ```bash
-uv pip install -e .
+bash ./install_dependencies.sh
 ```
