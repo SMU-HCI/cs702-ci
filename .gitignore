@@ -163,3 +163,4 @@ cython_debug/
 playground/
 **/answer/*
 **/*.pkl
+prism-*
