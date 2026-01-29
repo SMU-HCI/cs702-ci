@@ -1,0 +1,14 @@
+// Basic reachability
+// what's the probability of eventually reaching success?
+Pmax=? [ F "s_success" ]
+Pmin=? [ F "s_success" ]
+
+
+// Bounded reachability
+// It asks, can we succeed within 3 steps?
+Pmax=? [ F<=3 "s_success" ]
+Pmin=? [ F<=3 "s_success" ]
+
+// The above specs are same as:
+// Pmax=? [ true U<=3 "s_success" ]
+// Pmin=? [ true U<=3 "s_success" ]

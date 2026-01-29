@@ -1,0 +1,6 @@
+// Basic reachability tests the probability of eventually converting
+P=? [ F "converted" ]
+
+// Bounded reachability. Tests if the system reaches convert within 10 steps
+P=? [ F<=10 "converted" ]
+// Same as 

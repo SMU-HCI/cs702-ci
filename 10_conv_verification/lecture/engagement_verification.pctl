@@ -1,0 +1,8 @@
+// Is conversion probability at least 50%?
+P>=0.5 [ F "converted" ]
+
+// Can we guarantee staying engaged for 5 steps with >30% probability?
+P>=0.3 [ G<=5 "engaged" ]
+
+// Is it certain we eventually reach a terminal state?
+P>=1 [ F ("converted" | "abandoned") ]

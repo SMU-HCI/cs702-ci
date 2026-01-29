@@ -1,0 +1,5 @@
+// Invariance. Probability of entering abandoned (failure state)
+P=? [ G !"abandoned" ]
+
+// Combining safety and reachability
+P=? [ !"abandoned" U "engaged" ]

@@ -1,0 +1,10 @@
+// Basic invariance
+// Checks "never reach a bad state"
+Pmax=? [ G !"s_abandon" ]
+Pmin=? [ G !"s_abandon" ]
+
+
+// Combining invariance and reachability
+// Probability of reaching success while keeping the user away from unwanted state.
+Pmax=? [ !"s_abandon" U "s_success" ]
+Pmin=? [ !"s_abandon" U "s_success" ]

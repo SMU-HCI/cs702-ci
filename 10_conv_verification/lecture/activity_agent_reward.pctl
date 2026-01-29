@@ -1,0 +1,3 @@
+// Expected reward to reach terminal done state
+Rmax=? [ F "done" ]
+Rmin=? [ F "done" ]
