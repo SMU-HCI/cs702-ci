@@ -5,6 +5,7 @@ description = "CS702 project"
 requires-python = ">=3.12"
 dependencies = [
     "arviz==0.20.0",
+    "casadi==3.7.2",
     "jaxopt==0.8.5",
     "jupyter==1.1.1",
     "matplotlib==3.10.0",
