@@ -165,3 +165,4 @@ playground/
 **/answer/*
 **/*.pkl
 prism-*
+*.trace
