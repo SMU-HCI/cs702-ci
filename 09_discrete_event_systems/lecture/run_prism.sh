@@ -10,9 +10,18 @@ prism engagement.pm
 # Forward simulate the model for 10 steps and save the trace to a file.
 prism engagement.pm -simpath 10 engagement.trace
 
+
 # CTMC model: engagement_timed.pm
 # Check if the CTMC model is syntactically correct.
 prism engagement_timed.pm
 
 # Forward simulate the CTMC model for 60 time units and save the trace to a file.
 prism engagement_timed.pm -simpath time=60 engagement_timed.trace
+
+
+# MDP model: activity_agent.pm
+# Check if the MDP model is syntactically correct.
+prism activity_agent.pm
+
+# Forward simulate the MDP model for 10 steps and save the trace to a file.
+prism activity_agent.pm -simpath 10 activity_agent.trace
