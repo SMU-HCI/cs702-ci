@@ -43,6 +43,6 @@ include = [
     "12_state_space_representation*",
     "13_numerical_optimization*",
     "14_optimization_control*",
-    "15_bayesian_filter*",
-    "16_cont_verification*",
+    "15_cont_verification*",
+    "16_bayesian_filter*",
 ]
