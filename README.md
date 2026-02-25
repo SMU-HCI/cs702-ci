@@ -62,8 +62,13 @@ Run the following command to install project dependencies:
 bash ./install_dependencies.sh
 ```
 
-Dev Environment in PIXI (Work-in-Progress)
+Dev Environment in pixi (Work-in-Progress)
 ------------------------------------------
+You need to install pixi.
+
+```bash
+brew install pixi
+```
 
 Install dependencies:
 
