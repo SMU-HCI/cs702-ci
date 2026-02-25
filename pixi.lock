@@ -226,7 +226,9 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/8e/37/efad0257dc6e593a18957422533ff0f87ede7c9c6ea010a2177d738fb82f/pure_eval-0.2.3-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/2c/a5/da83046273d990f256cb79796a190bbf7ec999269705ddc609403f8c6b06/pyarrow-23.0.1-cp312-cp312-manylinux_2_28_x86_64.whl
       - pypi: https://files.pythonhosted.org/packages/0c/c3/44f3fbbfa403ea2a7c779186dc20772604442dde72947e7d01069cbe98e3/pycparser-3.0-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/c1/83/0236e258d9f9b40fcef4f14eb5cf461df569a6022f9c052a73b3c28a8422/pygame_ce-2.5.6-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl
       - pypi: https://files.pythonhosted.org/packages/c7/21/705964c7812476f378728bdf590ca4b771ec72385c533964653c68e86bdc/pygments-2.19.2-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/53/21/6e936168c1e37dcc806f3ffd6008bc8993af90a5a6edc84a9ec196350c09/pymunk-7.2.0-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl
       - pypi: https://files.pythonhosted.org/packages/53/a6/db16eb1dd9e3b80230c213106f6e2f072ca5c014f36cfc5316a9c9e9415d/Pyomo-6.8.2-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
       - pypi: https://files.pythonhosted.org/packages/10/bd/c038d7cc38edc1aa5bf91ab8068b63d4308c66c4c8bb3cbba7dfbc049f9c/pyparsing-3.3.2-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/ec/57/56b9bcc3c9c6a792fcbaf139543cee77261f3651ca9da0c93f5c1221264b/python_dateutil-2.9.0.post0-py2.py3-none-any.whl
@@ -488,7 +490,9 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/8e/37/efad0257dc6e593a18957422533ff0f87ede7c9c6ea010a2177d738fb82f/pure_eval-0.2.3-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/88/7c/3d841c366620e906d54430817531b877ba646310296df42ef697308c2705/pyarrow-23.0.1-cp312-cp312-manylinux_2_28_aarch64.whl
       - pypi: https://files.pythonhosted.org/packages/0c/c3/44f3fbbfa403ea2a7c779186dc20772604442dde72947e7d01069cbe98e3/pycparser-3.0-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/5b/d3/43702534989aca67704a1c333216891b248f102266eb8a7be001bb32f8dc/pygame_ce-2.5.6-cp312-cp312-manylinux2014_aarch64.manylinux_2_17_aarch64.whl
       - pypi: https://files.pythonhosted.org/packages/c7/21/705964c7812476f378728bdf590ca4b771ec72385c533964653c68e86bdc/pygments-2.19.2-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/0f/d1/6cfeb351da4f1c51a7a6c5841e1ca004d750cd9aa20cae0efe846974ad39/pymunk-7.2.0-cp312-cp312-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl
       - pypi: https://files.pythonhosted.org/packages/23/01/8568d8729f2c85769b7ccd5c42c9d9d327995d7b1890da550c5936537364/Pyomo-6.8.2-cp312-cp312-manylinux_2_17_aarch64.manylinux2014_aarch64.whl
       - pypi: https://files.pythonhosted.org/packages/10/bd/c038d7cc38edc1aa5bf91ab8068b63d4308c66c4c8bb3cbba7dfbc049f9c/pyparsing-3.3.2-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/ec/57/56b9bcc3c9c6a792fcbaf139543cee77261f3651ca9da0c93f5c1221264b/python_dateutil-2.9.0.post0-py2.py3-none-any.whl
@@ -704,7 +708,9 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/8e/37/efad0257dc6e593a18957422533ff0f87ede7c9c6ea010a2177d738fb82f/pure_eval-0.2.3-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/e1/da/3f941e3734ac8088ea588b53e860baeddac8323ea40ce22e3d0baa865cc9/pyarrow-23.0.1-cp312-cp312-macosx_12_0_x86_64.whl
       - pypi: https://files.pythonhosted.org/packages/0c/c3/44f3fbbfa403ea2a7c779186dc20772604442dde72947e7d01069cbe98e3/pycparser-3.0-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/5a/05/7295ecb43e20e76e6f177eb38b1346f22d57be5e6659d3d952423b9f7199/pygame_ce-2.5.6-cp312-cp312-macosx_10_13_x86_64.whl
       - pypi: https://files.pythonhosted.org/packages/c7/21/705964c7812476f378728bdf590ca4b771ec72385c533964653c68e86bdc/pygments-2.19.2-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/ac/7c/550876bf943c72c5edb9038b89db8cb1c25e6e802cd717376a9220180c4b/pymunk-7.2.0-cp312-cp312-macosx_10_13_x86_64.whl
       - pypi: https://files.pythonhosted.org/packages/78/c0/6c424e04e84bfd46626cf2f775f6e87ffeb9d55eb88b989eda7629b71e36/Pyomo-6.8.2-cp312-cp312-macosx_10_13_x86_64.whl
       - pypi: https://files.pythonhosted.org/packages/10/bd/c038d7cc38edc1aa5bf91ab8068b63d4308c66c4c8bb3cbba7dfbc049f9c/pyparsing-3.3.2-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/ec/57/56b9bcc3c9c6a792fcbaf139543cee77261f3651ca9da0c93f5c1221264b/python_dateutil-2.9.0.post0-py2.py3-none-any.whl
@@ -920,7 +926,9 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/8e/37/efad0257dc6e593a18957422533ff0f87ede7c9c6ea010a2177d738fb82f/pure_eval-0.2.3-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/9a/4b/4166bb5abbfe6f750fc60ad337c43ecf61340fa52ab386da6e8dbf9e63c4/pyarrow-23.0.1-cp312-cp312-macosx_12_0_arm64.whl
       - pypi: https://files.pythonhosted.org/packages/0c/c3/44f3fbbfa403ea2a7c779186dc20772604442dde72947e7d01069cbe98e3/pycparser-3.0-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/aa/59/e3146af051400d81046cd33e01e5c150086607fc4112f5a63531331e2e34/pygame_ce-2.5.6-cp312-cp312-macosx_11_0_arm64.whl
       - pypi: https://files.pythonhosted.org/packages/c7/21/705964c7812476f378728bdf590ca4b771ec72385c533964653c68e86bdc/pygments-2.19.2-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/07/25/a358ce75e99bdabe38a7106e8e310a05d7fbf9357d1dbfe5a5dcb038e6f0/pymunk-7.2.0-cp312-cp312-macosx_11_0_arm64.whl
       - pypi: https://files.pythonhosted.org/packages/12/16/d7c048eb7ddabd195f0e4e058df01b17f970aa4cdcd5680883accd6fed30/Pyomo-6.8.2-cp312-cp312-macosx_11_0_arm64.whl
       - pypi: https://files.pythonhosted.org/packages/10/bd/c038d7cc38edc1aa5bf91ab8068b63d4308c66c4c8bb3cbba7dfbc049f9c/pyparsing-3.3.2-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/ec/57/56b9bcc3c9c6a792fcbaf139543cee77261f3651ca9da0c93f5c1221264b/python_dateutil-2.9.0.post0-py2.py3-none-any.whl
@@ -7447,6 +7455,26 @@ packages:
   version: '3.0'
   sha256: b727414169a36b7d524c1c3e31839a521725078d7b2ff038656844266160a992
   requires_python: '>=3.10'
+- pypi: https://files.pythonhosted.org/packages/5a/05/7295ecb43e20e76e6f177eb38b1346f22d57be5e6659d3d952423b9f7199/pygame_ce-2.5.6-cp312-cp312-macosx_10_13_x86_64.whl
+  name: pygame-ce
+  version: 2.5.6
+  sha256: 198ba4d3925ad9acbf4b96ac1385f0b54f1e2141223e42da782d8345a5d6adc0
+  requires_python: '>=3.9'
+- pypi: https://files.pythonhosted.org/packages/5b/d3/43702534989aca67704a1c333216891b248f102266eb8a7be001bb32f8dc/pygame_ce-2.5.6-cp312-cp312-manylinux2014_aarch64.manylinux_2_17_aarch64.whl
+  name: pygame-ce
+  version: 2.5.6
+  sha256: 133279f5724431fd0de74b29060b08e655d24d8b3c09481f226182ac0cb32927
+  requires_python: '>=3.9'
+- pypi: https://files.pythonhosted.org/packages/aa/59/e3146af051400d81046cd33e01e5c150086607fc4112f5a63531331e2e34/pygame_ce-2.5.6-cp312-cp312-macosx_11_0_arm64.whl
+  name: pygame-ce
+  version: 2.5.6
+  sha256: 5bb66ac4025d6abb60929bf742d287c5fdc58918847a599d12ba0747fee7d882
+  requires_python: '>=3.9'
+- pypi: https://files.pythonhosted.org/packages/c1/83/0236e258d9f9b40fcef4f14eb5cf461df569a6022f9c052a73b3c28a8422/pygame_ce-2.5.6-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl
+  name: pygame-ce
+  version: 2.5.6
+  sha256: 6ed8163e389d5dfcf7817458792c4eaeb96a50393d63a9c4d3384eb2b8944123
+  requires_python: '>=3.9'
 - pypi: https://files.pythonhosted.org/packages/c7/21/705964c7812476f378728bdf590ca4b771ec72385c533964653c68e86bdc/pygments-2.19.2-py3-none-any.whl
   name: pygments
   version: 2.19.2
@@ -7454,6 +7482,70 @@ packages:
   requires_dist:
   - colorama>=0.4.6 ; extra == 'windows-terminal'
   requires_python: '>=3.8'
+- pypi: https://files.pythonhosted.org/packages/07/25/a358ce75e99bdabe38a7106e8e310a05d7fbf9357d1dbfe5a5dcb038e6f0/pymunk-7.2.0-cp312-cp312-macosx_11_0_arm64.whl
+  name: pymunk
+  version: 7.2.0
+  sha256: b68aebe6ae78dd4741fb95c7aedd99b1e09a38b81a1bd9d02eda4a4799866c88
+  requires_dist:
+  - cffi>=1.17.1 ; sys_platform != 'emscripten'
+  - cffi>1.14.0 ; sys_platform == 'emscripten'
+  - pyglet ; extra == 'dev'
+  - pygame ; extra == 'dev'
+  - pillow ; extra == 'dev'
+  - sphinx ; extra == 'dev'
+  - aafigure ; extra == 'dev'
+  - wheel ; extra == 'dev'
+  - matplotlib ; extra == 'dev'
+  - numpy ; extra == 'dev'
+  requires_python: '>=3.9'
+- pypi: https://files.pythonhosted.org/packages/0f/d1/6cfeb351da4f1c51a7a6c5841e1ca004d750cd9aa20cae0efe846974ad39/pymunk-7.2.0-cp312-cp312-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl
+  name: pymunk
+  version: 7.2.0
+  sha256: 0fed84166c1c6cd812b9c86a56f0b0d03712c11403b178a40997e81c916b7b51
+  requires_dist:
+  - cffi>=1.17.1 ; sys_platform != 'emscripten'
+  - cffi>1.14.0 ; sys_platform == 'emscripten'
+  - pyglet ; extra == 'dev'
+  - pygame ; extra == 'dev'
+  - pillow ; extra == 'dev'
+  - sphinx ; extra == 'dev'
+  - aafigure ; extra == 'dev'
+  - wheel ; extra == 'dev'
+  - matplotlib ; extra == 'dev'
+  - numpy ; extra == 'dev'
+  requires_python: '>=3.9'
+- pypi: https://files.pythonhosted.org/packages/53/21/6e936168c1e37dcc806f3ffd6008bc8993af90a5a6edc84a9ec196350c09/pymunk-7.2.0-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl
+  name: pymunk
+  version: 7.2.0
+  sha256: 187c919618a4ed76aeb9e1c6e19b45fbfecc1f5fe5212f7e9f847b55ea0614f1
+  requires_dist:
+  - cffi>=1.17.1 ; sys_platform != 'emscripten'
+  - cffi>1.14.0 ; sys_platform == 'emscripten'
+  - pyglet ; extra == 'dev'
+  - pygame ; extra == 'dev'
+  - pillow ; extra == 'dev'
+  - sphinx ; extra == 'dev'
+  - aafigure ; extra == 'dev'
+  - wheel ; extra == 'dev'
+  - matplotlib ; extra == 'dev'
+  - numpy ; extra == 'dev'
+  requires_python: '>=3.9'
+- pypi: https://files.pythonhosted.org/packages/ac/7c/550876bf943c72c5edb9038b89db8cb1c25e6e802cd717376a9220180c4b/pymunk-7.2.0-cp312-cp312-macosx_10_13_x86_64.whl
+  name: pymunk
+  version: 7.2.0
+  sha256: 7037e42b7c1b926916c4f41841f3822de8dafa53d794bc1f31e3bebcd47c5fe2
+  requires_dist:
+  - cffi>=1.17.1 ; sys_platform != 'emscripten'
+  - cffi>1.14.0 ; sys_platform == 'emscripten'
+  - pyglet ; extra == 'dev'
+  - pygame ; extra == 'dev'
+  - pillow ; extra == 'dev'
+  - sphinx ; extra == 'dev'
+  - aafigure ; extra == 'dev'
+  - wheel ; extra == 'dev'
+  - matplotlib ; extra == 'dev'
+  - numpy ; extra == 'dev'
+  requires_python: '>=3.9'
 - pypi: https://files.pythonhosted.org/packages/12/16/d7c048eb7ddabd195f0e4e058df01b17f970aa4cdcd5680883accd6fed30/Pyomo-6.8.2-cp312-cp312-macosx_11_0_arm64.whl
   name: pyomo
   version: 6.8.2

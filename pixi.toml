@@ -29,4 +29,6 @@ scipy = "==1.16.3"
 seaborn = "==0.13.2"
 stljax = "==1.1.3"
 rerun-sdk = "*"
+pygame-ce = "*"
+pymunk = "*"
 
