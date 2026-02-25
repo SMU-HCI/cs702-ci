@@ -1,0 +1,31 @@
+[workspace]
+name = "cs702"
+version = "0.1.0"
+description = "CS702 project"
+channels = ["conda-forge"]
+platforms = ["linux-64", "linux-aarch64", "osx-arm64", "osx-64"]
+
+[dependencies]
+python = ">=3.12,<3.13"
+ipopt = "*"
+spot = "*"
+
+[pypi-dependencies]
+arviz = "==0.20.0"
+casadi = "==3.7.2"
+diffrax = "==0.7.1"
+jaxopt = "==0.8.5"
+jupyter = "==1.1.1"
+matplotlib = "==3.10.0"
+networkx = "==3.4.2"
+numpy = "==2.4.1"
+numpyro = "==0.19.0"
+optax = "==0.2.4"
+pandas = "==2.2.3"
+pyomo = "==6.8.2"
+rtamt = "==0.3.5"
+scikit-learn = "==1.8.0"
+scipy = "==1.16.3"
+seaborn = "==0.13.2"
+stljax = "==1.1.3"
+

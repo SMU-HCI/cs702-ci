@@ -61,3 +61,35 @@ Run the following command to install project dependencies:
 ```bash
 bash ./install_dependencies.sh
 ```
+
+Dev Environment in PIXI (Work-in-Progress)
+------------------------------------------
+
+Install dependencies:
+
+```bash
+pixi install
+```
+
+Note, I needed to install `stormpy` separately (`pip install stormpy`) after installing dependencies with PIXI.
+
+
+Run a command in the env:
+```bash
+pixi run python
+```
+
+Start a shell with the Python env active. This is most likely what you need to do.
+```bash
+pixi shell
+```
+
+If you want to run a single command without entering a shell, run:
+```bash
+pixi run python my_script.py
+```
+
+If you want to run Jupyter Notebook in VS Code, select pixi's Python as the VS Code interpreter.
+The pixi Python should be at .pixi/envs/default/bin/python (you can check with `pixi run which python`).
+In VS Code, run `Cmd+Shift+P` and select `Python: Select Interpreter`. Then choose `Enter interpreter path...` and paste the path.
+Open your notebook — VS Code will use this as the kernel automatically.
