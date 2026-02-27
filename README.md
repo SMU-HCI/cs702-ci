@@ -76,7 +76,7 @@ Install dependencies:
 pixi install
 ```
 
-Note, I needed to install `stormpy` separately (`pip install stormpy`) after installing dependencies with PIXI.
+Note, I needed to install `stormpy` separately (`pip install stormpy`) after installing dependencies with pixi.
 
 
 Run a command in the env:
