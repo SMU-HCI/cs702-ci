@@ -64,7 +64,7 @@ bash ./install_dependencies.sh
 
 Dev Environment in pixi (Work-in-Progress)
 ------------------------------------------
-You need to install pixi.
+You need to install pixi. See the installation instruction here: [install](https://pixi.prefix.dev/latest/installation/)
 
 ```bash
 brew install pixi
