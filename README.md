@@ -74,10 +74,13 @@ Install dependencies:
 
 ```bash
 pixi install
-pixi run pip install stormpy
+pixi run python -m pip install stormpy==1.11.3
 ```
 
-Note, I needed to install `stormpy` separately (`pip install stormpy`) after installing dependencies with pixi.
+Stormpy is installed separately because its macOS wheels require a newer
+deployment target than Pixi uses while resolving the cross-platform lock file.
+Using `python -m pip` ensures that it is installed into the Pixi environment
+rather than another `pip` installation on your `PATH`.
 
 
 Run a command in the env:

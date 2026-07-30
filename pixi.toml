@@ -10,6 +10,7 @@ register-kernel = "python -m ipykernel install --sys-prefix --name cs702-pixi --
 
 [dependencies]
 python = ">=3.12,<3.13"
+pip = "*"
 ipopt = "*"
 spot = "*"
 
@@ -36,4 +37,3 @@ pygame-ce = "*"
 pymunk = "*"
 opencv-python = "*"
 mediapipe = "*"
-
