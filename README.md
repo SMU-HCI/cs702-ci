@@ -74,6 +74,7 @@ Install dependencies:
 
 ```bash
 pixi install
+pixi run pip install stormpy
 ```
 
 Note, I needed to install `stormpy` separately (`pip install stormpy`) after installing dependencies with pixi.
@@ -92,6 +93,11 @@ pixi shell
 If you want to run a single command without entering a shell, run:
 ```bash
 pixi run python my_script.py
+```
+
+To run Jupyter Notebook:
+```bash
+pixi run register-kernel
 ```
 
 If you want to run Jupyter Notebook in VS Code, select pixi's Python as the VS Code interpreter.
