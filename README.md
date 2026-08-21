@@ -103,6 +103,8 @@ To run Jupyter Notebook:
 pixi run register-kernel
 ```
 
+Then run run `Cmd+Shift+P` and `Developer: Reload Window`.
+
 If you want to run Jupyter Notebook in VS Code, select pixi's Python as the VS Code interpreter.
 The pixi Python should be at .pixi/envs/default/bin/python (you can check with `pixi run which python`).
 In VS Code, run `Cmd+Shift+P` and select `Python: Select Interpreter`. Then choose `Enter interpreter path...` and paste the path.
