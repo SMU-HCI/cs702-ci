@@ -3,7 +3,7 @@
 This repository contains code for the lectures and assignments for the corresponding course, CS702 Computational Interaction.
 
 * Instructor: Kotaro Hara (Assistant Professor, SMU)
-* Course Website: [Link](https://smuhci.notion.site/CS702-Computational-Interaction-f6f6a99c2877403ba31009d4bea63406)
+* Course Website: [Link](https://smuhci.notion.site/cs702-ci)
 
 
 Instructions for Running the Code in this Repo
@@ -11,29 +11,24 @@ Instructions for Running the Code in this Repo
 
 
 Follow the steps below:
-1. Install Git and Docker.
-1. Install VS Code and the Dev Container extension. 
+1. Install Git and PIXI
+1. Install VS Code
 1. Clone this repository
-1. Run `Dev Containers: Reopen in Container`
 1. Install dependencies
 
-Install Git and Docker
+
+Install Git and PIXI
 ----------------------
 Install Git if your computer does not have it installed.
 
-Install Docker if your computer does not have it installed.
-Download Docker Desktop from the official website (https://www.docker.com/products/docker-desktop). 
-Then, follow the installation instruction for your operating system (Windows/macOS/Linux).
-After installation, start Docker Desktop and make sure it is running.
-You can check this by running `docker --version` in your terminal.
+Install PIXI if your computer does not have it installed.
+Follow the instruction here (https://pixi.prefix.dev/latest/installation/)
 
 
-Install VS Code and the Dev Containers Extension
+Install VS Code
 ------------------------------------------------
 Download and install Visual Studio Code from https://code.visualstudio.com.
-Open VS Code and navigate to the Extensions marketplace (`Ctrl+Shift+X` for Windows or `Cmd+Shift+X` for Mac).
-Search for "Dev Containers" in the marketplace.
-Then, click "Install" on the Dev Containers extension by Microsoft.
+
 
 Clone This Repository
 ---------------------
@@ -45,32 +40,10 @@ git clone https://github.com/SMU-HCI-Lab/cs702-ci.git
 cd cs702-ci
 ```
 
-Run Dev Containers
-------------------
-Open the cloned project in VS Code. 
-Press `Ctrl + Shift + P` for Windows or `Cmd + Shift + P` for macOS to open the command palette.
-Type `Dev Containers: Reopen in Container` and select it.
-Wait for VS Code to build and start the development container.
-This process may take several minutes during the first run.
-
 Install Dependencies
 --------------------
 Once inside the container, open a new terminal in VS Code.
 Run the following command to install project dependencies:
-
-```bash
-bash ./install_dependencies.sh
-```
-
-Dev Environment in pixi (Work-in-Progress)
-------------------------------------------
-You need to install pixi. See the installation instruction here: [install](https://pixi.prefix.dev/latest/installation/)
-
-```bash
-brew install pixi
-```
-
-Install dependencies:
 
 ```bash
 pixi install
@@ -83,6 +56,8 @@ Using `python -m pip` ensures that it is installed into the Pixi environment
 rather than another `pip` installation on your `PATH`.
 
 
+Running Python in PIXI
+----------------------
 Run a command in the env:
 ```bash
 pixi run python
@@ -98,7 +73,11 @@ If you want to run a single command without entering a shell, run:
 pixi run python my_script.py
 ```
 
-To run Jupyter Notebook:
+
+Jupyter Configuration
+---------------------
+To run Jupyter Notebook, run:
+
 ```bash
 pixi run register-kernel
 ```
@@ -106,6 +85,3 @@ pixi run register-kernel
 Then run run `Cmd+Shift+P` and `Developer: Reload Window`.
 
 If you want to run Jupyter Notebook in VS Code, select pixi's Python as the VS Code interpreter.
-The pixi Python should be at .pixi/envs/default/bin/python (you can check with `pixi run which python`).
-In VS Code, run `Cmd+Shift+P` and select `Python: Select Interpreter`. Then choose `Enter interpreter path...` and paste the path.
-Open your notebook — VS Code will use this as the kernel automatically.
