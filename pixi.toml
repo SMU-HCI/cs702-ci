@@ -3,7 +3,7 @@ name = "cs702"
 version = "0.1.0"
 description = "CS702 project"
 channels = ["conda-forge"]
-platforms = ["linux-64", "linux-aarch64", "osx-arm64", "osx-64"]
+platforms = ["linux-64", "linux-aarch64", "osx-arm64"]
 
 [tasks]
 register-kernel = "python -m ipykernel install --sys-prefix --name cs702-pixi --display-name 'Python (CS702 Pixi)'"
@@ -18,12 +18,13 @@ spot = "*"
 arviz = "==0.20.0"
 casadi = "==3.7.2"
 diffrax = "==0.7.1"
+flax = "==0.12.9"
 jaxopt = "==0.8.5"
 jupyter = "==1.1.1"
 matplotlib = "==3.10.0"
 networkx = "==3.4.2"
 numpy = ">=2.4.1"
-numpyro = "==0.19.0"
+numpyro = "==0.21.0"
 optax = "==0.2.4"
 pandas = "==2.2.3"
 pyomo = "==6.8.2"
